@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+label {
+  display: block;
+  margin: 1rem 10px;
+  padding: 0.2rem;
+  background: rgba(190, 175, 36, 0.493);
+}
+
+select,
+input {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid grey;
+}
+
+input:focus {
+  outline: 0;
+  border: 1px solid rgb(17, 224, 224);
+}
+
+label:focus-within {
+  color: rgb(9, 42, 112);
+}
+
+p {
+  font-size: 0.7rem;
+  opacity: 0.7;
+}

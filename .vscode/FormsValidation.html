@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form Example</title>
+    <link rel="stylesheet" type="text/css" href="css/forms.css" />
+</head>
+<body>
+    <h1>
+        Registration Form
+    </h1>
+<div id="regformbra">
+
+    <form>
+        <label>
+            <div>USER ID</div>
+            <input required placeholder="e.g. BlakeBra" name="userid" type="text"
+            minlength="4" maxlength="20">
+          </label>
+
+          <label>
+            <div>USER PASSWORD</div>
+            <input required placeholder="e.g. Colly300" name="userpassword" type="password"
+            minlength="5">
+          </label>
+
+        <label>
+          <div>Full Names</div>
+          <input required placeholder="e.g. Blake Collington" type="text">
+        </label>
+
+        <label>
+            <div>ADDRESS</div>
+            <input placeholder="Optional" type="text">
+          </label>
+
+          <label>
+            <div>COUNTRY</div>
+            <select required>
+              <option>South Africa</option>
+              <option>Zimbabwe</option>
+              <option>Mozambique</option>
+            </select>
+          </label>
+
+          <label>
+            <div>ZIP CODE</div>
+            <input required placeholder="e.g. 2036" name="zip" type="number"
+            minlength="4">
+          </label>
+      
+          <label>
+            <div>EMAIL</div>
+            <input required placeholder="e.g. bradaveG@yahoo.com" type="email">
+          </label>
+      
+        <label>
+            <div>GENDER</div>
+            <p>Required</p>
+          <input type="radio" name="sex" value="boy" ><span>Male</span>
+          <input type="radio" name="sex" value="girl" ><span>Female</span>
+          <input type="radio" name="sex" value="other" ><span>Rather Not Say</span>
+        </label>
+      
+        <label>   
+        <div>SPOKEN LANGUAGES</div>
+        <p>Required</p>
+          <input type="checkbox" value="eng" ><span>English</span>
+          <input  type="checkbox" value="zul" ><span>isiZulu</span>
+          <input  type="checkbox" value="afr" ><span>Afrikaans</span>
+          <input type="checkbox" value="tws" ><span>Setswana</span>
+          <input  type="checkbox" value="oth" ><span>Other</span>
+          <input type="reset">
+        </label>
+
+        <label>
+            <div>ABOUT ME</div>
+          <textarea name="messagebox" id="" cols="30" rows="10" placeholder="Optional"></textarea>
+        </label> 
+      
+        <button type="submit">SUBMIT</button>
+      </form>
+    </div>
+</body>
+</html>
